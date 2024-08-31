@@ -1,7 +1,7 @@
  const mongoose=require("mongoose")
  
 //mongoose.connect(" mongodb://localhost:27017/loginpage")
- mongoose.connect("mongodb+srv://pranitikubal9:practice_admin@cluster2.gbeqn.mongodb.net/demo")
+ mongoose.connect("mongodb+srv://your_username:your_password@cluster2.gbeqn.mongodb.net/your_db_name")
 .then(()=>{
     console.log("mongodb connected");
 
